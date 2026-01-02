@@ -3,3 +3,11 @@ npm-debug.log
 .env
 .DS_Store
 
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
