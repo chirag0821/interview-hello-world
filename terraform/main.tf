@@ -128,7 +128,7 @@ resource "aws_iam_role" "github_actions_role" {
             "token.actions.githubusercontent.com:aud" = "sts.amazonaws.com"
           }
           StringLike = {
-            "token.actions.githubusercontent.com:sub" = "repo:chirag0821/interview-hello-world:ref:refs/heads/main"
+            "token.actions.githubusercontent.com:sub" = "repo:chirag0821/interview-hello-world:*"
           }
         }
       }
