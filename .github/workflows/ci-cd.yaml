@@ -7,6 +7,9 @@ jobs:
   lint-build-scan-push:
     name: Lint, Build, Scan, Push
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     env:
       AWS_REGION: ap-south-1
       ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY }}
@@ -60,6 +63,9 @@ jobs:
     needs: lint-build-scan-push
     runs-on: ubuntu-latest
     environment: production
+    permissions:
+      id-token: write
+      contents: read
     env:
       AWS_REGION: ap-south-1
       EKS_CLUSTER_NAME: interview-hello-world-eks
