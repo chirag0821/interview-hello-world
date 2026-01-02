@@ -63,9 +63,6 @@ jobs:
     needs: lint-build-scan-push
     runs-on: ubuntu-latest
     environment: production
-    permissions:
-      id-token: write
-      contents: read
     env:
       AWS_REGION: ap-south-1
       EKS_CLUSTER_NAME: interview-hello-world-eks
