@@ -88,5 +88,18 @@ It performs:
 
 Screenshots of the working application and successful pipeline run
 
+#### Application Endpoint
+<img width="1919" height="866" alt="application_endpoint" src="https://github.com/user-attachments/assets/7705f3b1-7e26-4ac6-be25-cb6fb80693f7" />
+
+#### Application Health Endpoint
+<img width="1919" height="882" alt="application_health_endpoint" src="https://github.com/user-attachments/assets/0296b804-2a61-454b-a94c-3210f60f1a8a" />
+
+#### Failed CI pipeline given that HIGH Vulnerability Detected
+<img width="1920" height="908" alt="pipeline_ci_failed" src="https://github.com/user-attachments/assets/6ade075c-5021-4e16-ab99-367c54773767" />
+
+
+#### Successfull EKS Deployment
+<img width="1919" height="883" alt="pipeline_cd_success" src="https://github.com/user-attachments/assets/5b540efd-79dc-4cb8-b9ae-c659218fab06" />
+
 
 ---
