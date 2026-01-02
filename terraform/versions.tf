@@ -13,7 +13,6 @@ provider "aws" {
     tags = {
       Project     = "interview-hello-world"
       Environment = "dev"
-      Owner       = "your-name"
     }
   }
 }
