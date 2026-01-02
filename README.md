@@ -6,21 +6,19 @@ This repository contains A simple Node.js Express application designed for EKS d
 
 ### Run Express Application Locally 
 
-Run locally: `npm install && npm start`
-Build container: `docker build -t hello-world .`
-
+```
+npm install && npm start
+```
 ---
 
-### Terraform Prerequisites
+### Apply Terraform
+
+#### Terraform Prerequisites
 
 - AWS account
 - Terraform installed
 - AWS CLI installed
 - S3 bucket created manually for Terraform state
-
----
-
-### Apply Terraform
 
 #### Clone Repository
 
@@ -98,7 +96,7 @@ Screenshots of the working application and successful pipeline run
 <img width="1920" height="908" alt="pipeline_ci_failed" src="https://github.com/user-attachments/assets/6ade075c-5021-4e16-ab99-367c54773767" />
 
 
-#### Successfull EKS Deployment
+#### Successful EKS Deployment
 <img width="1919" height="883" alt="pipeline_cd_success" src="https://github.com/user-attachments/assets/5b540efd-79dc-4cb8-b9ae-c659218fab06" />
 
 
