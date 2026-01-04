@@ -43,7 +43,7 @@ module "eks" {
       }
     }
     admin_user = {
-      principal_arn = "arn:aws:iam::710188256018:user/ChiragRanpise"
+      principal_arn = "<PlaceHolder-for-Admin-IAM-User-ARN>"
 
       policy_associations = {
         admin = {
