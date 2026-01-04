@@ -37,6 +37,14 @@ Enter AWS user credentials and region. (make sure you have necesarry AWS IAM per
 
 ---
 
+#### Update `main.tf`
+
+Update `principal_arn` with the ARN of IAM user that has administrator privileges.
+
+```bash
+Update module.eks.access_entries.admin_user.principal_arn with the ARN of an IAM user that has administrator privileges.
+```
+---
 #### Initialize Terraform
 
 ```bash
