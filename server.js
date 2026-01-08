@@ -22,7 +22,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
-  res.status(200).send("Hello from the /hello endpoint");
+  res.status(200).send("Hello from the /hello endpoint!");
 });
 
 const server = app.listen(PORT, () => {
