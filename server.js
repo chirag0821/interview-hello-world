@@ -21,6 +21,10 @@ app.get("/health", (req, res) => {
   res.status(200).send("OK");
 });
 
+app.get("/hello", (req, res) => {
+  res.status(200).send("Hello from the /hello endpoint!");
+});
+
 const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}, version: ${VERSION}`);
 });

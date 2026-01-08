@@ -11,3 +11,4 @@ crash.log
 crash.*.log
 *.tfvars
 *.tfvars.json
+helper.sh
