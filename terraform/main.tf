@@ -43,7 +43,7 @@ module "eks" {
       }
     }
     admin_user = {
-      principal_arn = "<PlaceHolder-for-Admin-IAM-User-ARN>"
+      principal_arn = "arn:aws:iam::710188256018:user/ChiragRanpise"
 
       policy_associations = {
         admin = {
@@ -62,7 +62,7 @@ module "eks" {
       min_capacity     = 1
       max_capacity     = 1
 
-          instance_types = ["t3.medium"]
+      instance_types = ["t3.medium"]
       subnet_ids     = module.vpc.private_subnets
     }
   }
